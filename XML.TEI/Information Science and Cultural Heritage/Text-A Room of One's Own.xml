@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Text of "A Room of One's Own"</title>
+        <author xml:id="Woolf" sameAs="https://dbpedia.org/page/Virginia_Woolf">Virginia Woolf</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Peize Yu</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="Hogarth Press" ref="https://en.m.wikipedia.org/wiki/Hogarth_Press">Hogarth Press</publisher>
+        <availability>
+          <p>Publicly available from The Internet Archive</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:id="A_Room_of_Ones_Own">A Room of One's Own</title>
+          <author ref="#Woolf">Virginia Woolf</author>
+          <date when="1935">1935</date>
+        </bibl>
+        <ref target="https://dbpedia.org/page/A_Room_of_One's_Own https://archive.org/details/woolf_aroom"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI encoding of excerpt from Virginia Woolf's printed edition of "A Room of One's Own"</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter" n="1">
+        <head>CHAPTER I</head>
+        <p>
+            But, you may say, we asked you to speak about<lb/>
+            women and fiction—what has that got to do with<lb/>
+            a room of one’s own? I will try to explain. When you<lb/>
+            asked me to speak about women and fiction I sat<lb/>
+            down on the banks of a river and began to Wonder<lb/>
+            what the words meant. They might mean simply a<lb/>
+            few remarks about Fanny Burney; a few more about<lb/>
+            Jane Austen; a tribute to the Brontes and a sketch<lb/>
+            of Haworth Parsonage under snow; some witticisms<lb/>
+            if possible about Miss Mitford; a respectful allusion<lb/>
+            to George Eliot; a reference to Mrs. Gaskell and<lb/>
+            one would have done. But at second sight the words<lb/>
+            seemed not so simple. The title women and fiction<lb/>
+            might mean, and you may have meant it to mean,<lb/>
+            women and what they are like; or it might mean<lb/>
+            women and the fiction that they write; or it might<lb/>
+        </p>
+        <note place="bottom">
+            This essay is based upon two papers read to the Arts<lb/>
+            Society at Newnham and the Odtaa at Girton in October<lb/>
+            1928. The papers were too long to be read in full, and<lb/>
+            have since been altered and expanded.<lb/>
+            <pb n="5"/>
+        </note>
+        <p>
+            mean women and the fiction that is written about<lb/> 
+            them; or it might mean that somehow all three are<lb/>
+            inextricably mixed together and you want me to<lb/> 
+            consider them in that light. But when I began to<lb/> 
+            consider the subject in this last way, which seemed the<lb/> 
+            most interesting, I soon saw that it had one fatal<lb/> 
+            drawback. I should never be able to come to a<lb/> 
+            conclusion. I should never be able to fulfil what is,<lb/> 
+            I understand, the first duty of a lecturer—to hand<lb/> 
+            you after an hour’s discourse a nugget of pure<lb/>
+            truth to wrap up between the pages of your note¬<lb/>
+            books and keep on the mantelpiece for ever. All I<lb/>
+            could do was to offer you an opinion upon one<lb/>
+            minor point—a woman must have money and a<lb/>
+            room of her own if she is to write fiction; and that,<lb/>
+            as you will see, leaves the great problem of the true<lb/>
+            nature of woman and the true nature of fiction<lb/>
+            unsolved. I have shirked the duty of coming to a<lb/>
+            conclusion upon these two questions—women and<lb/>
+            fiction remain, so far as I am concerned, unsolved<lb/>
+            problems. But in order to make some amends I<lb/>
+            am going to do what I can to show you how I<lb/>
+            arrived at this opinion about the room and the<lb/> 
+            money. I am going to develop in your presence as<lb/> 
+            fully and freely as I can the train of thought which<lb/> 
+            led me to think this. Perhaps if I lay bare the ideas,<lb/>
+            <pb n="6"/>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+

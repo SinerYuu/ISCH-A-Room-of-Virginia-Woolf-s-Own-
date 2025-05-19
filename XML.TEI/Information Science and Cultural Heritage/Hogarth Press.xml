@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Virginia Woolf and the Hogarth Press</title>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Peize Yu</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Created for describing the relationship between Virginia Woolf and the Hogarth Press.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Original encoding of biographical and publishing history.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+   <text>
+    <body>
+      <listPerson>
+        <person xml:id="Woolf">
+          <persName>Virginia Woolf</persName>
+          <desc>
+            An English writer, considered one of the foremost modernists of the twentieth century. Known for her novels, essays, and feminist writings.
+          </desc>
+          <date when="1882-1941">1882-1941</date>
+        </person>
+        <person xml:id="Leonard-woolf">
+          <persName>Leonard Woolf</persName>
+          <desc>
+            A British political theorist, author, and publisher. He was the husband of Virginia Woolf and co-founder of the Hogarth Press.
+          </desc>
+          <date when="1880-1969">1880-1969</date>
+        </person>
+      </listPerson>
+
+      <listOrg>
+        <org xml:id="hogarth_press" ref="https://en.wikipedia.org/wiki/Hogarth_Press">
+          <orgName>Hogarth Press</orgName>
+          <desc>
+            An independent publishing house founded in 1917 by Virginia Woolf and her husband Leonard Woolf. Known for publishing early modernist literature and essays.
+          </desc>
+          <location>
+            <placeName xml:id="london">London</placeName>
+          </location>
+          <date when="1917">1917</date>
+          <listOrg>
+            <orgRelation type="foundedBy" ref="#Woolf"/>
+            <orgRelation type="foundedBy" ref="#Leonard-woolf"/>
+          </listOrg>
+        </org>
+      </listOrg>
+
+      <listBibl>
+        <bibl xml:id="Mrs_Dalloway">
+            <title>Mrs. Dalloway</title>
+            <author key="#Woolf">Virginia Woolf</author>
+            <publisher key="#hogarth_press">The Hogarth Press</publisher>
+            <date when="1925">1925</date>
+          </bibl>
+          <bibl xml:id="To_the_Lighthouse">
+            <title>To the Lighthouse</title>
+            <author key="#Woolf">Virginia Woolf</author>
+            <publisher key="#hogarth_press">The Hogarth Press</publisher>
+            <date when="1927">1927</date>
+          </bibl>
+          <bibl xml:id="Orlando">
+            <title>Orlando: A Biography</title>
+            <author key="#Woolf">Virginia Woolf</author>
+            <publisher key="#hogarth_press">The Hogarth Press</publisher>
+            <date when="1928">1928</date>
+          </bibl>
+          <bibl xml:id="A_Room_of_Ones_Own">
+            <title>A Room of One's Own</title>
+            <author key="#Woolf">Virginia Woolf</author>
+            <publisher key="#hogarth_press">The Hogarth Press</publisher>
+            <date when="1929">1929</date>
+          </bibl>
+          <bibl xml:id="Waves">
+            <title>The Waves</title>
+            <author key="#Woolf">Virginia Woolf</author>
+            <publisher key="#hogarth_press">The Hogarth Press</publisher>
+            <date when="1931">1931</date>
+          </bibl>
+          <bibl xml:id="ThreeGuineas">
+            <title>Three Guineas</title>
+            <author key="#Woolf">Virginia Woolf</author>
+            <publisher key="#hogarth_press">The Hogarth Press</publisher>
+            <date when="1938">1938</date>
+          </bibl>
+      </listBibl>
+
+      <figure>
+        <head>Hogarth Press Logo</head>
+        <graphic url="Hogarth Press.jpg"/>
+        <figDesc>
+            The logo of the Hogarth Press.
+          <ptr target="https://commons.wikimedia.org/wiki/File:Hogarth_Press_logo_1929.jpg"/>
+        </figDesc>
+      </figure>
+    </body>
+  </text>
+</TEI>

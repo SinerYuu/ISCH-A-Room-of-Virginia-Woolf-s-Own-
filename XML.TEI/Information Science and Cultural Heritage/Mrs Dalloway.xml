@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Text of "Mrs. Dalloway"</title>
+        <author xml:id="Woolf" sameAs="https://dbpedia.org/page/Virginia_Woolf">Virginia Woolf</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Peize Yu</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="Harcourt" ref="https://en.wikipedia.org/wiki/Harcourt_(publisher)">Harcourt</publisher>
+        <availability>
+          <p>Publicly available from woolfonline.com</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:id="Mrs_Dalloway">Mrs. Dalloway</title>
+          <author ref="#Woolf">Virginia Woolf</author>
+          <date when="1925">1925</date>
+        </bibl>
+        <ref target="https://dbpedia.org/page/Mrs_Dalloway https://archive.org/details/in.ernet.dli.2015.475974"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI encoding of excerpt from Virginia Woolf's printed edition of "Mrs. Dalloway"</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="excerpt" xml:id="md-excerpt-1"> 
+        <p>
+          Mrs. Dalloway said she would buy the flowers herself.<lb/>
+        </p>
+        <p>
+          For Lucy had her work cut out for her. The<lb/>
+          doors would be taken off their hinges; Rumpel-<lb/>
+          mayer’s men were coming. And then, thought<lb/>
+          Clarissa Dalloway, what a morning—fresh as if<lb/>
+          issued to children on a beach.<lb/>
+        </p>
+        <p>
+          What a lark! What a plunge! For so it had<lb/>
+          always seemed to her, when, with a little squeak<lb/>
+          of the hinges, which she could hear now, she had<lb/>
+          burst open the French windows and plunged at<lb/>
+          Bourton into the open air. How fresh, how calm,<lb/>
+          stiller than this of course, the air was in the early<lb/>
+          morning; like the flap of a wave; the kiss of a<lb/>
+          wave; chill and sharp and yet (for a girl of eighteen<lb/>
+          as she then was) solemn, feeling as she did, stand-<lb/>
+          ing there at the open window, that something awful<lb/>
+          was about to happen; looking at the flowers, at the<lb/>
+          trees with the smoke winding off them and the rooks<lb/>
+          rising, falling; standing and looking until Peter
+          <pb n="3"/>
+          Walsh said, “<quote>Musing among the vegetables?</quote>” — was<lb/>
+          that it? — “I prefer men to cauliflowers” — was that<lb/>
+          it? He must have said it at breakfast one morning<lb/>
+          when she had gone out on to the terrace — Peter<lb/>
+          Walsh. He would be back from India one of these<lb/>
+          days, June or July, she forgot which, for his letters<lb/>
+          were awfully dull; it was his sayings one remem-<lb/>
+          bered; his eyes, his pocket‑knife, his smile, his<lb/>
+          grumpiness and, when millions of things had utterly<lb/>
+          vanished — how strange it was! — a few sayings like<lb/>
+          this about cabbages.
+        </p>
+        <p>
+          She stiffened a little on the kerb, waiting for<lb/>
+          Durntall’s van to pass. A charming woman, Scrope<lb/>
+          Purvis thought her (knowing her as one does know<lb/>
+          people who live next door to one in Westminster);<lb/>
+          a touch of the bird about her, of the jay, blue‑green,<lb/>
+          light, vivacious, though she was over fifty, and<lb/>
+          grown very white since her illness. There she<lb/>
+          perched, never seeing him, waiting to cross, very<lb/>
+          upright.
+        </p>
+        <p>
+          For having lived in Westminster — how many<lb/>
+          years now? over twenty, — one feels even in the<lb/>
+          midst of the traffic, or waking at night, Clarissa<lb/>
+          was positive, a particular hush, or solemnity; an<lb/>
+          indescribable pause; a suspense (but that might<lb/>
+          be her heart, affected, they said, by influenza) be-<lb/>
+          <pb n="4"/>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>   
+
+
+
+
+
+
+
+
+
+
+
+
