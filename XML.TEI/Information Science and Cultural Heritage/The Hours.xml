@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>The Hours: Virginia Woolf’s Modern Echo</title>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <name>Peize Yu</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Digital Humanities Project: A Room of Virginia Woolf’s Own</publisher>
+        <date when="2025"/>
+        <availability>
+          <p>Content is for educational use; film copyright belongs to its original rights holders.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:id="the_Hours" sameAs="https://www.imdb.com/title/tt0274558/" ref="https://en.wikipedia.org/wiki/The_Hours_(film)">The Hours</title>
+          <author>Stephen Daldry</author>
+          <editor>Screenplay by David Hare, based on the novel by Michael Cunningham</editor>
+          <date when="2002"/>
+          <orgName>Paramount Pictures / Miramax International</orgName>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="item" ref="#the_hours">
+        <head>The Hours: Virginia Woolf’s Modern Echo</head>
+        <p type="summary">
+          The film <title ref="#the_hours">The Hours</title> (2002) interweaves three parallel narratives to explore the enduring legacy of <persName ref="#Woolf">Virginia Woolf</persName>’s writing. One storyline portrays Woolf herself—struggling to compose <title ref="#Mrs_Dalloway">Mrs. Dalloway</title>—played by Nicole Kidman.
+            The second follows Laura Brown (played by Julianne Moore), a 1950s housewife who reads <persName ref="#Woolf">Woolf</persName>’s novel and contemplates her own life choices. The third narrative centers on Clarissa Vaughan (played by Meryl Streep), a contemporary New Yorker planning a party for her friend Richard, a poet dying of suicide.
+            The film's title refers to the concept of time and the hours that shape our lives, echoing <persName ref="#Woolf">Woolf</persName>'s exploration of consciousness and the passage of time in her own work.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
