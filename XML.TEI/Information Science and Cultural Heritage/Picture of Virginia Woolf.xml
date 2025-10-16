@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Picture of Virginia Woolf in 1902</title>
+        <author xml:id="Beresford" sameAs="https://en.wikipedia.org/wiki/George_Charles_Beresford">George Charles Beresford</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Peize Yu</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="Wikimedia_Commons">Wikimedia Commons</publisher>
+        <availability>
+          <p>Publicly available from Wikimedia Commons.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Picture of Virginia Woolf in 1902</title>
+          <author ref="#Beresford" >George Charles Beresford</author>
+          <date when="1902">1902</date>
+        </bibl>
+      </sourceDesc>
+      <projectDesc>
+        <p>TEI encoding of Virginia Woolf's picture in 1902, taken by George Charles Beresford.</p>
+      </projectDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <facsimile>
+    <head>Picture of <persName xml:id="Woolf">Virginia Woolf</persName> in 1902</head>
+    <graphic url="Virginia Woolf in 1902.jpg"/>
+      <desc>This picture of <persName ref="#Woolf">Virginia Woolf</persName> was taken by <persName ref="#Beresford">George Charles Beresford</persName> in 1902. It is a significant representation of <persName ref="#Woolf">Woolf</persName>'s early life and career.</desc>
+      <ptr target="https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg"/>
+  </facsimile>
+  <text>
+    <body>
+      <div type="commentary">
+        <head>Historical Context of the Virginia Woolf Portrait</head>
+        <p>This portrait of <persName ref="#Woolf">Virginia Woolf</persName> was taken in <date when="1902">1902</date> by <persName ref="#Beresford">George Charles Beresford</persName>, a prominent photographer known for his portraits of literary figures. The photograph captures <persName ref="#Woolf">Woolf</persName> at age 20, well before she would publish her first novel, <title>The Voyage Out</title> (1915).</p>
+
+        <p>At the time this photograph was taken, <persName ref="#Woolf">Woolf</persName> was living at 22 Hyde Park Gate with her father, Leslie Stephen, following the death of her mother in 1895. This period preceded the formation of the influential <orgName>Bloomsbury Group</orgName>, which would later establish <persName ref="#Woolf">Woolf</persName> as a central figure in modernist literature.</p>
+
+        <p>The portrait shows the young writer before her struggles with mental illness intensified, though she had already experienced periods of nervous breakdown following family bereavements. The contemplative expression and direct gaze present a woman of serious intellectual purpose, characteristics that would define her literary career.</p>
+
+        <p>This image is particularly significant as it documents <persName ref="#Woolf">Virginia Woolf</persName> before she adopted her married name and before her literary fame. It captures a transitional moment in her life, between her sheltered Victorian upbringing and her emergence as a pioneering modernist author.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
