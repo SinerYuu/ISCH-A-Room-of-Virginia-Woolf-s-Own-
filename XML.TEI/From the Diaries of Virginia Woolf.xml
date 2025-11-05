@@ -21,8 +21,8 @@
       <sourceDesc>
         <bibl>
           <title xml:id="From_the_Diary_of_Virginia_Woolf">From the Diary of Virginia Woolf</title>
-          <author ref="#Woolf">Virginia Woolf</author>
-          <date when="1954">1954</date>
+          <composer ref="#Argento">Dominick Argento</composer>
+          <date when="1974">1974</date>
         </bibl>
         <ref target="https://www.lieder.net/lieder/assemble_texts.html?SongCycleId=2366"/>
       </sourceDesc>
