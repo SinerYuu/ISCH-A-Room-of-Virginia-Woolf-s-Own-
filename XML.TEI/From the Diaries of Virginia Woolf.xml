@@ -22,6 +22,7 @@
         <bibl>
           <title xml:id="From_the_Diary_of_Virginia_Woolf">From the Diary of Virginia Woolf</title>
           <composer ref="#Argento">Dominick Argento</composer>
+          <author ref="#Woolf">Virginia Woolf</author>
           <date when="1974">1974</date>
         </bibl>
         <ref target="https://www.lieder.net/lieder/assemble_texts.html?SongCycleId=2366"/>
@@ -200,3 +201,4 @@
     </body>
   </text>
 </TEI>
+
