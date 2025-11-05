@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://example.org/woolf/work/text-of-orlando-a-biography",
+  "@type": "Book",
+  "name": "Text of \"Orlando: A Biography\"",
+  "creator": {
+    "@id": "https://example.org/woolf/person/virginia-woolf",
+    "name": "Virginia Woolf"
+  },
+  "sameAs": [
+    "https://dbpedia.org/page/Orlando:_A_Biography",
+    "https://archive.org/details/orlandobiography0000virg"
+  ]
+}

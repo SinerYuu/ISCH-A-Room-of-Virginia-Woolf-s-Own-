@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://example.org/woolf/work/text-of-to-the-lighthouse",
+  "@type": "Book",
+  "name": "Text of \"To the Lighthouse\"",
+  "creator": {
+    "@id": "https://example.org/woolf/person/virginia-woolf",
+    "name": "Virginia Woolf"
+  },
+  "contentLocation": {
+    "@id": "https://example.org/woolf/place/st-ives",
+    "name": null
+  },
+  "sameAs": [
+    "https://dbpedia.org/page/To_the_Lighthouse",
+    "http://www.woolfonline.com"
+  ]
+}

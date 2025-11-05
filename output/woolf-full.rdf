@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:geo1="http://www.w3.org/2003/01/geo/wgs84_pos#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="https://schema.org/"
+   xmlns:woolfo="https://example.org/woolf-ontology#"
+>
+  <rdf:Description rdf:about="https://example.org/woolf/work/the-diary-of-virginia-woolf">
+    <rdf:type rdf:resource="https://schema.org/Book"/>
+    <dcterms:title>The Diary of Virginia Woolf</dcterms:title>
+    <schema:creator rdf:resource="https://example.org/woolf/person/virginia-woolf"/>
+    <dcterms:publisher>The New York Public Library</dcterms:publisher>
+    <dcterms:date>1928</dcterms:date>
+    <rdfs:seeAlso rdf:resource="https://digitalcollections.nypl.org/items/6c46d770-bc67-013b-8012-0242ac110002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/resource/fig-ro-page2">
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+    <schema:contentUrl>Manuscript Page 2 of A Room of One's Own.jpg</schema:contentUrl>
+    <dcterms:title>Manuscript Page 2 of "A Room of One's Own"</dcterms:title>
+    <dcterms:description>This page continues the narrative development from the previous manuscript leaf. The writer was adding revisions and new ideas between the lines, in the margins, and on the blank pages. The original image is available at</dcterms:description>
+    <rdfs:seeAlso rdf:resource="https://cudl.lib.cam.ac.uk/view/MS-FITZWILLIAM-00001-01942/6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/resource/portrait-woolf-1902">
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+    <schema:contentUrl>Virginia Woolf in 1902.jpg</schema:contentUrl>
+    <dcterms:title>Picture of Virginia Woolf in 1902</dcterms:title>
+    <dcterms:description>This picture of Virginia Woolf was taken by George Charles Beresford in 1902. It is a significant representation of Woolf's early life and career.</dcterms:description>
+    <rdfs:seeAlso rdf:resource="https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg"/>
+    <foaf:depicts rdf:resource="https://example.org/woolf/person/virginia-woolf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/work/text-of-to-the-lighthouse">
+    <rdf:type rdf:resource="https://schema.org/Book"/>
+    <dcterms:title>Text of "To the Lighthouse"</dcterms:title>
+    <schema:creator rdf:resource="https://example.org/woolf/person/virginia-woolf"/>
+    <dcterms:publisher>Hogarth Press</dcterms:publisher>
+    <dcterms:date>1927</dcterms:date>
+    <rdfs:seeAlso rdf:resource="https://dbpedia.org/page/To_the_Lighthouse"/>
+    <rdfs:seeAlso rdf:resource="http://www.woolfonline.com"/>
+    <schema:contentLocation rdf:resource="https://example.org/woolf/place/st-ives"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/person/virginia-woolf">
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+    <schema:name>Virginia Woolf</schema:name>
+    <owl:sameAs rdf:resource="https://dbpedia.org/page/Virginia_Woolf"/>
+    <foaf:depiction rdf:resource="https://example.org/woolf/resource/portrait-woolf-1902"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/resource/fig-ro-page1">
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+    <schema:contentUrl>Manuscript Page 1 of A Room of One's Own.jpg</schema:contentUrl>
+    <dcterms:title>Manuscript Page 1 of "A Room of One's Own"</dcterms:title>
+    <dcterms:description>This manuscript page represents an early draft of "A Room of One's Own". It shows Virginia Woolf starting and restarting sentences. The original image is available at .</dcterms:description>
+    <rdfs:seeAlso rdf:resource="https://cudl.lib.cam.ac.uk/view/MS-FITZWILLIAM-00001-01942/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/org/hogarth-press">
+    <rdf:type rdf:resource="https://schema.org/Organization"/>
+    <schema:name>Hogarth Press</schema:name>
+    <schema:founder rdf:resource="https://example.org/woolf/person/virginia-woolf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/work/mrs-dalloway">
+    <rdf:type rdf:resource="https://schema.org/Book"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/work/from-the-diaries-of-virginia-woolf">
+    <rdf:type rdf:resource="https://schema.org/MusicComposition"/>
+    <dcterms:title>From the Diaries of Virginia Woolf</dcterms:title>
+    <prov:wasDerivedFrom rdf:resource="https://example.org/woolf/work/diaries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/work/a-room-of-one-s-own">
+    <rdf:type rdf:resource="https://schema.org/Book"/>
+    <woolfo:hasManuscript rdf:resource="https://example.org/woolf/resource/fig-ro-page1"/>
+    <woolfo:hasManuscript rdf:resource="https://example.org/woolf/resource/fig-ro-page2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/work/text-of-mrs-dalloway">
+    <rdf:type rdf:resource="https://schema.org/Book"/>
+    <dcterms:title>Text of "Mrs. Dalloway"</dcterms:title>
+    <schema:creator rdf:resource="https://example.org/woolf/person/virginia-woolf"/>
+    <dcterms:publisher>Harcourt</dcterms:publisher>
+    <dcterms:date>1925</dcterms:date>
+    <rdfs:seeAlso rdf:resource="https://dbpedia.org/page/Mrs_Dalloway"/>
+    <rdfs:seeAlso rdf:resource="https://archive.org/details/in.ernet.dli.2015.475974"/>
+    <schema:contentLocation rdf:resource="https://example.org/woolf/place/london"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/resource/fig-lh-page1">
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+    <schema:contentUrl>Manuscript Page 1 of To the Lighthouse.jpg</schema:contentUrl>
+    <dcterms:title>Manuscript Page 1 of "To the Lighthouse"</dcterms:title>
+    <dcterms:description>This manuscript page represents an early draft of "To the Lighthouse". It reveals Woolf's concern with sentence rhythm and pacing. The original image is available at .</dcterms:description>
+    <rdfs:seeAlso rdf:resource="http://www.woolfonline.com/?node=content/image/gallery&amp;project=1&amp;parent=2&amp;taxa=6&amp;content=334&amp;pos=2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/work/to-the-lighthouse">
+    <rdf:type rdf:resource="https://schema.org/Book"/>
+    <woolfo:hasManuscript rdf:resource="https://example.org/woolf/resource/fig-lh-page1"/>
+    <woolfo:hasManuscript rdf:resource="https://example.org/woolf/resource/fig-lh-page2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/film/the-hours-virginia-woolf-s-modern-echo">
+    <rdf:type rdf:resource="https://schema.org/Film"/>
+    <dcterms:title>The Hours: Virginia Woolf’s Modern Echo</dcterms:title>
+    <schema:basedOn rdf:resource="https://example.org/woolf/work/mrs-dalloway"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/place/london">
+    <rdf:type rdf:resource="https://schema.org/Place"/>
+    <schema:name>London</schema:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/2643743/"/>
+    <geo1:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51.50853</geo1:lat>
+    <geo1:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-0.12574</geo1:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/work/text-of-orlando-a-biography">
+    <rdf:type rdf:resource="https://schema.org/Book"/>
+    <dcterms:title>Text of "Orlando: A Biography"</dcterms:title>
+    <schema:creator rdf:resource="https://example.org/woolf/person/virginia-woolf"/>
+    <dcterms:publisher>Harcourt</dcterms:publisher>
+    <dcterms:date>1928</dcterms:date>
+    <rdfs:seeAlso rdf:resource="https://dbpedia.org/page/Orlando:_A_Biography"/>
+    <rdfs:seeAlso rdf:resource="https://archive.org/details/orlandobiography0000virg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/place/stives">
+    <rdf:type rdf:resource="https://schema.org/Place"/>
+    <schema:name>St Ives</schema:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q724182"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/2638778/"/>
+    <geo1:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.20861</geo1:lat>
+    <geo1:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-5.4875</geo1:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/place/rodmell">
+    <rdf:type rdf:resource="https://schema.org/Place"/>
+    <schema:name>Rodmell</schema:name>
+    <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q531102"/>
+    <owl:sameAs rdf:resource="https://www.geonames.org/2639231/"/>
+    <geo1:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50.83917</geo1:lat>
+    <geo1:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.01588</geo1:long>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/work/text-of-a-room-of-one-s-own">
+    <rdf:type rdf:resource="https://schema.org/Book"/>
+    <dcterms:title>Text of "A Room of One's Own"</dcterms:title>
+    <schema:creator rdf:resource="https://example.org/woolf/person/virginia-woolf"/>
+    <dcterms:publisher>Hogarth Press</dcterms:publisher>
+    <dcterms:date>1935</dcterms:date>
+    <rdfs:seeAlso rdf:resource="https://dbpedia.org/page/A_Room_of_One's_Own"/>
+    <rdfs:seeAlso rdf:resource="https://archive.org/details/woolf_aroom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/woolf/resource/fig-lh-page2">
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+    <schema:contentUrl>Manuscript Page 2 of To the Lighthouse.jpg</schema:contentUrl>
+    <dcterms:title>Manuscript Page 2 of "To the Lighthouse"</dcterms:title>
+    <dcterms:description>This page continues the narrative development from the previous manuscript leaf. It highlights Woolf's process of refining sentence structure and narrative flow. The original image is available at</dcterms:description>
+    <rdfs:seeAlso rdf:resource="http://www.woolfonline.com/?node=content/image/gallery&amp;project=1&amp;parent=2&amp;taxa=6&amp;content=335&amp;pos=3"/>
+  </rdf:Description>
+</rdf:RDF>
