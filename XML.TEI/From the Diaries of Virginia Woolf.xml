@@ -20,11 +20,11 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>A Writer's Diary: Being Extracts from the Diary of Virginia Woolf</title>
+          <title xml:id="From_the_Diary_of_Virginia_Woolf">From the Diary of Virginia Woolf</title>
           <author ref="#Woolf">Virginia Woolf</author>
-          <editor>Anne Olivier Bell</editor>
           <date when="1954">1954</date>
         </bibl>
+        <ref target="https://www.lieder.net/lieder/assemble_texts.html?SongCycleId=2366"/>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
