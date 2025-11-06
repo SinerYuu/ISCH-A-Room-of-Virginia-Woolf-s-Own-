@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Manuscript of To the Lighthouse</title>
+        <author xml:id="virginia-woolf" sameAs="https://dbpedia.org/page/Virginia_Woolf">Virginia Woolf</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Peize Yu</persName>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <p>Publicly available from woolfonline.com</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>To the Lighthouse</title>
+          <author ref="#virginia-woolf">Virginia Woolf</author>
+        </bibl>
+        <p>Archived manuscript pages of *To the Lighthouse* from Woolf Online.</p>
+      </sourceDesc>
+      <projectDesc>
+        <p>TEI encoding of selected manuscript pages from Virginia Woolf's *To the Lighthouse*, as archived by Woolf Online.</p>
+      </projectDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+
+      <!-- Figure 1 -->
+      <figure xml:id="fig-ms-page1">
+        <head>Manuscript Page 1 of *To the Lighthouse*</head>
+        <graphic url="Manuscript Page 1 of To the Lighthouse.jpg"/>
+        <figDesc>
+          This manuscript page represents an early draft of *To the Lighthouse*. It reveals Woolf's concern with sentence rhythm and pacing.
+          The original image is available at
+          <ptr target="http://www.woolfonline.com/?node=content/image/gallery&amp;project=1&amp;parent=2&amp;taxa=6&amp;content=334&amp;pos=2"/>.
+        </figDesc>
+      </figure>
+
+      <!-- Figure 2 -->
+      <figure xml:id="fig-ms-page2">
+          <head>Manuscript Page 2 of *To the Lighthouse*</head>
+          <graphic url="Manuscript Page 2 of To the Lighthouse.jpg"/>
+        <figDesc>
+          This page continues the narrative development from the previous manuscript leaf. It highlights Woolf's process of refining sentence structure and narrative flow.
+          The original image is available at
+          <ptr target="http://www.woolfonline.com/?node=content/image/gallery&amp;project=1&amp;parent=2&amp;taxa=6&amp;content=335&amp;pos=3"/>
+        </figDesc>
+      </figure>
+
+    </body>
+  </text>
+</TEI>

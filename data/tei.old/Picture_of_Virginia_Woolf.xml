@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Picture of Virginia Woolf in 1902</title>
+        <author xml:id="george-charles-beresford" sameAs="https://en.wikipedia.org/wiki/George_Charles_Beresford">George Charles Beresford</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Peize Yu</persName>
+        </respStmt>
+      </titleStmt>
+    
+      <publicationStmt>
+        <p>Publicly available from Wikimedia Commons</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Picture of Virginia Woolf in 1902</title>
+          <author ref="#george-charles-beresford">George Charles Beresford</author>
+          <date>1902</date>
+        </bibl>
+      </sourceDesc>
+      <projectDesc>
+        <p>TEI encoding of Virginia Woolf's picture in 1902, taken by George Charles Beresford.</p>
+      </projectDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <figure xml:id="fig-woolf-1902">
+        <head>Picture of Virginia Woolf in 1902</head>
+        <graphic url="Virginia Woolf in 1902.jpg"/>
+        <figDesc>
+          This picture of Virginia Woolf was taken by George Charles Beresford in 1902. It is a significant representation of Woolf's early life and career.
+          The original image is available at
+          <ptr target="https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg"/>
+        </figDesc>
+      </figure>
+    </body>
+  </text>
+</TEI>
