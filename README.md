@@ -4,6 +4,24 @@ Group project for the course Information Science and Cultural Heritage at DHDK, 
 ## Metadata Analysis
 
 ## Theoretical Model
+The project models the literary universe around the English writer Virginia Woolf as a network of interconnected entities, including people, works, places, publishers, adaptations, and visual resources.
+Each entity is described according to existing metadata standards adopted by the cultural heritage institutions holding the items:
+
+| Source  |	Metadata Format	| Standard |
+|---------|-----------------|----------|
+| DBpedia	| RDF/XML	| Dublin Core, FOAF |
+| Woolf Online	| TEI P5	| TEI |
+| Cambridge Digital Library	| XML |	MODS / TEI |
+| Archive.org	| RDFa	| schema.org |
+| Wikimedia Commons	| RDFa	| schema:MediaObject |
+
+Each work (e.g. To the Lighthouse, Mrs Dalloway) has attributes such as title, creator, publication year, publisher, and related locations of creation and content.
+The project introduces one custom property — woolf:hasManuscript — to link works with their digital manuscripts (edm:WebResource).
+Places are linked to external authorities (Wikidata, GeoNames) via owl:sameAs, while visual materials (portraits, facsimiles) use foaf:depicts to connect with the person entity.
+Adaptations such as The Hours (film) or From the Diaries of Virginia Woolf (music composition) are connected to the original works through schema:basedOn or prov:wasDerivedFrom.
+
+The model therefore integrates literary, biographical, and geographical information through Linked Open Data, reusing vocabularies such as schema.org, Dublin Core Terms, FOAF, PROV, EDM, and GEO.
+Its conceptual structure is further represented in the Graffoo diagram and in RDF/OWL serializations (woolf-full.rdf, woolf-full.ttl).
 
 ## Conceptual Model
 
