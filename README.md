@@ -97,3 +97,10 @@ All data are in `/public/data/`.
 | `contentUrl` | direct link to image or web resource |
 
 Front-end only needs to read these JSON files with `fetch()` and display them.
+
+## About the Team
+| Name | Role | Responsibilities |
+|------|--------------|------------------|
+| Peize Yu | Coordinator | `/data/work-to-the-lighthouse.json` |
+| Yihua Li | Theorist | `/data/person-virginia-woolf.json` |
+| Jingtong Jiang | Designer | `/data/place-london.json` |
