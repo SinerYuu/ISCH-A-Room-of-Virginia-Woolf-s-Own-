@@ -103,4 +103,4 @@ Front-end only needs to read these JSON files with `fetch()` and display them.
 |------|--------------|------------------------------------|
 | Peize Yu | Coordinator | XML/TEI documents, Metadata analysis |
 | Yihua Li | Theorist | XML/TEI to RDF transformation, Theoretical/Conceptual model  |
-| Jingtong Jiang | Designer | XML to HTML transformation, Webpage implementation |
+| Jingtong Jiang | Designer | XML to HTML transformation, Webpage making |
