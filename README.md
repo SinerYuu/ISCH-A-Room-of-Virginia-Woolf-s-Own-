@@ -4,14 +4,23 @@ Group project for the course Information Science and Cultural Heritage at DHDK, 
 Virginia Woolf (1882 – 1941) was one of the foremost figures of English literary modernism — a novelist, essayist, and publisher whose life and works reshaped twentieth-century ideas of art, gender, and consciousness.
 
 Born into a prominent intellectual family in London, she grew up surrounded by books, debates, and the early currents of feminism. Her home later became the center of the Bloomsbury Group, a circle of writers, artists, and thinkers who challenged Victorian conventions and redefined modern art and philosophy.
+
 Woolf’s writing career began at the Hogarth Press, which she co-founded with her husband Leonard Woolf in 1917. Through this small independent press she published not only her own works but also experimental texts by T.S. Eliot, Freud, and Katherine Mansfield — making the Press itself an emblem of avant-garde literary culture.
+
 Her major novels — Mrs. Dalloway (1925), To the Lighthouse (1927), Orlando (1928), and so many others — revolutionized narrative form with interior monologue and fluid time. Each work explores the subtle layers of human perception and the constraints imposed by gender, society, and history.
+
     - Mrs Dalloway, set in post-war London, unfolds in a single day and probes the inner lives of ordinary citizens beneath the surface of urban routine.
+    
     - To the Lighthouse reflects the memory of Woolf’s childhood summers in St Ives, translating personal loss into a meditation on art and transience.
+    
     - Orlando playfully defies gender and time, inspired by her relationship with Vita Sackville-West, becoming a celebration of identity’s fluidity.
+    
     - In A Room of One’s Own, Woolf transformed her Cambridge lectures into a manifesto for women’s intellectual independence — the foundation of feminist literary criticism.
+    
 Yet behind this creative brilliance lay an ongoing struggle with mental illness. Between periods of intense productivity and silence, Woolf’s diaries reveal both vulnerability and resilience, her acute sensitivity to the modern world’s chaos. In 1941, amid the turmoil of World War II, she took her own life near her home in Rodmell, Sussex, leaving behind a body of work that continues to inspire and challenge readers.
+
 Virginia Woolf’s influence transcends literature; she stands as both writer and symbol — of modern consciousness, of feminist thought, and of the intertwined beauty and fragility of the creative mind.
+
 Picking up pieces of the iconic Virginia Woolf, "A Room of Virginia Woolf's Own" as an Information Science project intends to build a semantic and digital representation of the life, works, and cultural afterlives of Virginia Woolf, one of the most influential figures of English modernism. 
 
 ## Metadata Analysis
