@@ -1,4 +1,6 @@
 # ISCH-A-Room-of-Virginia-Woolf-s-Own-
+
+## About the Project
 Group project for the course Information Science and Cultural Heritage at DHDK, UNIBO.
 
 Virginia Woolf (1882 – 1941) was one of the foremost figures of English literary modernism — a novelist, essayist, and publisher whose life and works reshaped twentieth-century ideas of art, gender, and consciousness.
