@@ -1,0 +1,9 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://example.org/woolf/work/text-of-mrs-dalloway",
+  "@type": "Book",
+  "name": "Text of \"Mrs. Dalloway\"",
+  "creator": {
+    "@id": "https://example.org/woolf/person/virginia-woolf"
+  }
+}

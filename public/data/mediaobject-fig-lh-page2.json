@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://example.org/woolf/resource/fig-lh-page2",
+  "@type": "MediaObject",
+  "name": "Manuscript Page 2 of \"To the Lighthouse\"",
+  "contentUrl": "Manuscript Page 2 of To the Lighthouse.jpg",
+  "sameAs": [
+    "http://www.woolfonline.com/?node=content/image/gallery&project=1&parent=2&taxa=6&content=335&pos=3"
+  ]
+}

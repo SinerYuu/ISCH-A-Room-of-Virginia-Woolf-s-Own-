@@ -1,0 +1,5 @@
+subject,predicate,object
+https://example.org/woolf/work/the-diary-of-virginia-woolf,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/Collection
+https://example.org/woolf/work/the-diary-of-virginia-woolf,http://purl.org/dc/terms/title,The Diary of Virginia Woolf
+https://example.org/woolf/work/the-diary-of-virginia-woolf,https://schema.org/creator,https://example.org/woolf/person/virginia-woolf
+https://example.org/woolf/work/the-diary-of-virginia-woolf,http://purl.org/dc/terms/hasPart,https://example.org/woolf/work/1928-diary

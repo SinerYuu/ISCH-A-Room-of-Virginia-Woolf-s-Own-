@@ -1,0 +1,8 @@
+subject,predicate,object
+https://example.org/woolf/work/text-of-orlando-a-biography,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/Book
+https://example.org/woolf/work/text-of-orlando-a-biography,http://purl.org/dc/terms/title,"Text of ""Orlando: A Biography"""
+https://example.org/woolf/work/text-of-orlando-a-biography,https://schema.org/creator,https://example.org/woolf/person/virginia-woolf
+https://example.org/woolf/work/text-of-orlando-a-biography,http://purl.org/dc/terms/publisher,https://example.org/woolf/org/hogarth-press
+https://example.org/woolf/work/text-of-orlando-a-biography,http://purl.org/dc/terms/date,1928
+https://example.org/woolf/work/text-of-orlando-a-biography,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://dbpedia.org/page/Orlando:_A_Biography
+https://example.org/woolf/work/text-of-orlando-a-biography,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://archive.org/details/orlandobiography0000virg

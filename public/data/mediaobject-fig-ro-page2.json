@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://example.org/woolf/resource/fig-ro-page2",
+  "@type": "MediaObject",
+  "name": "Manuscript Page 2 of \"A Room of One's Own\"",
+  "contentUrl": "Manuscript Page 2 of A Room of One's Own.jpg",
+  "sameAs": [
+    "https://cudl.lib.cam.ac.uk/view/MS-FITZWILLIAM-00001-01942/6"
+  ]
+}
