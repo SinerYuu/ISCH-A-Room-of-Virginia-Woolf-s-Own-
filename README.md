@@ -1,6 +1,8 @@
 # ISCH-A-Room-of-Virginia-Woolf-s-Own-
 Group project for the course Information Science and Cultural Heritage at DHDK, UNIBO.
+
 Virginia Woolf (1882 – 1941) was one of the foremost figures of English literary modernism — a novelist, essayist, and publisher whose life and works reshaped twentieth-century ideas of art, gender, and consciousness.
+
 Born into a prominent intellectual family in London, she grew up surrounded by books, debates, and the early currents of feminism. Her home later became the center of the Bloomsbury Group, a circle of writers, artists, and thinkers who challenged Victorian conventions and redefined modern art and philosophy.
 Woolf’s writing career began at the Hogarth Press, which she co-founded with her husband Leonard Woolf in 1917. Through this small independent press she published not only her own works but also experimental texts by T.S. Eliot, Freud, and Katherine Mansfield — making the Press itself an emblem of avant-garde literary culture.
 Her major novels — Mrs. Dalloway (1925), To the Lighthouse (1927), Orlando (1928), and so many others — revolutionized narrative form with interior monologue and fluid time. Each work explores the subtle layers of human perception and the constraints imposed by gender, society, and history.
