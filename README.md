@@ -64,7 +64,7 @@ The model therefore integrates literary, biographical, and geographical informat
 Its conceptual structure is further represented in the Graffoo diagram and in RDF/OWL serializations (woolf-full.rdf, woolf-full.ttl).
 
 ## Conceptual Model
-
+This model illustrates the main semantic relationships among the selected items. It identifies the roles of persons, creative works, and places, highlighting the interconnections of authorship, publication, and inspiration.
 <img width="2615" height="2227" alt="A room of Virginia Woolf&#39;s own" src="https://github.com/user-attachments/assets/38246184-f6a4-4947-a3ad-423bf4dce357" />
 
 ## Files Sturcture
