@@ -1,9 +1,0 @@
-{
-  "@context": "https://schema.org",
-  "@id": "https://example.org/woolf/work/text-of-to-the-lighthouse",
-  "@type": "Book",
-  "name": "Text of \"To the Lighthouse\"",
-  "creator": {
-    "@id": "https://example.org/woolf/person/virginia-woolf"
-  }
-}
