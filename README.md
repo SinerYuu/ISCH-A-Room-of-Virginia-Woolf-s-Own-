@@ -9,7 +9,7 @@ Born into a prominent intellectual family in London, she grew up surrounded by b
 
 Woolf’s writing career began at the Hogarth Press, which she co-founded with her husband Leonard Woolf in 1917. Through this small independent press she published not only her own works but also experimental texts by T.S. Eliot, Freud, and Katherine Mansfield — making the Press itself an emblem of avant-garde literary culture.
 
-Her major novels — Mrs. Dalloway (1925), To the Lighthouse (1927), Orlando (1928), and so many others — revolutionized narrative form with interior monologue and fluid time. Each work explores the subtle layers of human perception and the constraints imposed by gender, society, and history.
+Her major novels — *Mrs. Dalloway* (1925), *To the Lighthouse* (1927), *Orlando* (1928), and so many others — revolutionized narrative form with interior monologue and fluid time. Each work explores the subtle layers of human perception and the constraints imposed by gender, society, and history.
 
     - Mrs Dalloway, set in post-war London, unfolds in a single day and probes the inner lives of ordinary citizens beneath the surface of urban routine.
     
@@ -45,21 +45,14 @@ This metadata analysis identifies the descriptive standards used by institutions
 
 ## Theoretical Model
 The project models the literary universe around the English writer Virginia Woolf as a network of interconnected entities, including people, works, places, publishers, adaptations, and visual resources.
-Each entity is described according to existing metadata standards adopted by the cultural heritage institutions holding the items:
-
-| Source  |	Metadata Format	| Standard |
-|---------|-----------------|----------|
-| DBpedia	| RDF/XML	| Dublin Core, FOAF |
-| Woolf Online	| TEI P5	| TEI |
-| Cambridge Digital Library	| XML |	MODS / TEI |
-| Archive.org	| RDFa	| schema.org |
-| Wikimedia Commons	| RDFa	| schema:MediaObject |
-
-Each work (e.g. To the Lighthouse, Mrs Dalloway) has attributes such as title, creator, publication year, publisher, and related locations of creation and content.
-The project introduces one custom property — woolf:hasManuscript — to link works with their digital manuscripts (edm:WebResource).
-Places are linked to external authorities (Wikidata, GeoNames) via owl:sameAs, while visual materials (portraits, facsimiles) use foaf:depicts to connect with the person entity.
-Adaptations such as The Hours (film) or From the Diaries of Virginia Woolf (music composition) are connected to the original works through schema:basedOn or prov:wasDerivedFrom.
-
+Each entity is described according to existing metadata standards adopted by the cultural heritage institutions holding the items.
+Each work (e.g.*To the Lighthouse*, *Mrs Dalloway*) has attributes such as title, creator, publication year, publisher, and related locations of creation and content.
+The project introduces one custom property __woolf:hasManuscript__ to link works with their digital manuscripts (__edm:WebResource__).
+The manuscripts are connected only to the works, and each page includes its own description and external digital link.
+In the case of the diaries, this project treats the entire diary as a collection, while the 1928 diary is selected as a specific manuscript to be annotated in detail.
+Places are linked to external authorities (Wikidata, GeoNames) via __owl:sameAs__, and those works linked to the places they were created or their content happened in through schema:contentLocation or schema:locationCreated.
+Visual materials (portraits, facsimiles) use foaf:depicts to connect with the person entity.
+Adaptations such as *The Hours* (film) or *From the Diaries of Virginia Woolf* (music composition) are connected to the original works through schema:basedOn or prov:wasDerivedFrom. *From the Diary of Virginia Woolf* is linked to the entire diary collection.
 The model therefore integrates literary, biographical, and geographical information through Linked Open Data, reusing vocabularies such as schema.org, Dublin Core Terms, FOAF, PROV, EDM, and GEO.
 Its conceptual structure is further represented in the Graffoo diagram and in RDF/OWL serializations (woolf-full.rdf, woolf-full.ttl).
 
