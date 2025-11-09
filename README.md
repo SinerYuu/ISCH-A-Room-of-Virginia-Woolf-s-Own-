@@ -298,12 +298,10 @@ ISCH-A-Room-of-Virginia-Woolf-s-Own/
 │   └── ... 
 ├── html/
 │   ├── data/ 
-│       ├── XXX.json               # additional .json files, for Front-End
-│       ├── graph.json             # overview json of all items
+│       ├── XXX.xml               # additional xml files
 │       └── ...
-│   ├── images/ 
-│       └──                        # the images used on final website
-│   └── XXX.html                   # final html of website
+│   ├── collection.html/           # final html     
+│   └── combine_tei.xslt           # the file of xslt
 └── scripts/
     ├── buil_full.py                # tei -> rdf
     ├── jsoncsv.py                  # rdf -> csv
