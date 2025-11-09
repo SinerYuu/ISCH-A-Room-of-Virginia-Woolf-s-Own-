@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>The Diary of Virginia Woolf</title>
+        <author xml:id="Woolf" sameAs="https://dbpedia.org/page/Virginia_Woolf">Virginia Woolf</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Peize Yu</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="NYPL" sameAs="https://www.nypl.org/">The New York Public Library</publisher>
+        <availability>
+          <p>Publicly available from The New York Public Library's Digital Collections</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title xml:id="Diary_1928">1928 Diary</title>
+          <author ref="#Woolf">Virginia Woolf</author>
+          <date when="1928">1928</date>
+        </bibl>
+        <ref target="https://digitalcollections.nypl.org/items/6c46d770-bc67-013b-8012-0242ac110002"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI encoding of excerpt from Virginia Woolf's 1928 Diary, with both the manuscript and the text.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+
+  <facsimile>
+    <head>Manuscript of <persName ref="#Woolf">Virginia Woolf</persName>'s diary in 1928</head>
+    <graphic url="Diaries-1928.jpg"/>
+      <ptr target="https://digitalcollections.nypl.org/items/6c46d770-bc67-013b-8012-0242ac110002"/>
+  </facsimile>
+
+  <text>
+    <body>
+      <p>
+        at three in the night. He came in - a fresh tall<lb/>
+        old man (such was my impression) with a very<lb/>
+        determined look about his face. I said how nice it<lb/>
+        was to Sheffield; has a thick moustache; a<lb/>
+        red beard that came down, very trim. But when he saw<lb/>
+        perfectly trim very large. They then - he<lb/>
+        was becomes growing in mercy when the letter -<lb/>
+        how I wish discovered I discovered in the "Times"<lb/>
+        brushed, neat, urbane. They came through dinner<lb/>
+        he turned to me&amp;the talk remembering<lb/>
+        platform. Charming story teller; he told me Fitzgerald<lb/>
+        had in mind an article on Goldsmith I opened -<lb/> 
+        Burnt me away when Lyttelton appeared. I got<lb/>
+        these from his yarn manner. J. M.B. does himself so<lb/>
+        whether you encouraged me more day so<lb/>
+        telling has me he is unrivaled. "In a minute now<lb/>
+        he came in the is constabulary." Like a general<lb/>
+        he said, intent directly. What a strange power. A<lb/>
+        which is hard flaxen. Just always closes. At<lb/>
+        Charming now, he said "very kind expression, -<lb/> 
+        What had Coleridge really published in - equal<lb/>
+        to W - at that time? Between Waverley days -<lb/>
+        To W - think - now she you wrote. I do an<lb/>
+        I was one of his colleagues. Yellow in the way<lb/>
+        looking. But not quite purple too slightly<lb/>
+        he asked me what I wrote - to black green. He<lb/>
+        took me in his. Therefore when a literary. I went to<lb/>
+        buy it &amp; wrote him that I much you would deem<lb/>
+        but not great charms -<lb/>
+      </p>
+    </body>
+  </text>
+</TEI>
+
