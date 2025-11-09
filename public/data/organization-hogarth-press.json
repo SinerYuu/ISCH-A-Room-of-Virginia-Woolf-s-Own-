@@ -1,6 +1,0 @@
-{
-  "@context": "https://schema.org",
-  "@id": "https://example.org/woolf/org/hogarth-press",
-  "@type": "Organization",
-  "name": "Hogarth Press"
-}

@@ -1,9 +1,0 @@
-{
-  "@context": "https://schema.org",
-  "@id": "https://example.org/woolf/film/the-hours-virginia-woolf-s-modern-echo",
-  "@type": "Movie",
-  "name": "The Hours: Virginia Woolf’s Modern Echo",
-  "basedOn": {
-    "@id": "https://example.org/woolf/work/mrs-dalloway"
-  }
-}
