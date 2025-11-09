@@ -1,0 +1,4 @@
+subject,predicate,object
+https://example.org/woolf/film/the-hours-virginia-woolf-s-modern-echo,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/Movie
+https://example.org/woolf/film/the-hours-virginia-woolf-s-modern-echo,http://purl.org/dc/terms/title,The Hours: Virginia Woolf’s Modern Echo
+https://example.org/woolf/film/the-hours-virginia-woolf-s-modern-echo,https://schema.org/basedOn,https://example.org/woolf/work/mrs-dalloway

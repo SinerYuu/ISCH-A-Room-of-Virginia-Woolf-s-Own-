@@ -1,0 +1,6 @@
+subject,predicate,object
+https://example.org/woolf/resource/fig-ro-page1,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.europeana.eu/schemas/edm/WebResource
+https://example.org/woolf/resource/fig-ro-page1,http://purl.org/dc/terms/title,"Manuscript Page 1 of ""A Room of One's Own"""
+https://example.org/woolf/resource/fig-ro-page1,http://purl.org/dc/terms/description,"This manuscript page represents an early draft of ""A Room of One's Own"". It shows"
+https://example.org/woolf/resource/fig-ro-page1,https://schema.org/contentUrl,Manuscript Page 1 of A Room of One's Own.jpg
+https://example.org/woolf/resource/fig-ro-page1,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://cudl.lib.cam.ac.uk/view/MS-FITZWILLIAM-00001-01942/4

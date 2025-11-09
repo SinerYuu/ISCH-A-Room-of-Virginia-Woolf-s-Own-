@@ -1,0 +1,7 @@
+subject,predicate,object
+https://example.org/woolf/place/rodmell,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/Place
+https://example.org/woolf/place/rodmell,https://schema.org/name,Rodmell
+https://example.org/woolf/place/rodmell,http://www.w3.org/2002/07/owl#sameAs,https://www.wikidata.org/wiki/Q531102
+https://example.org/woolf/place/rodmell,http://www.w3.org/2002/07/owl#sameAs,https://www.geonames.org/2639231/
+https://example.org/woolf/place/rodmell,http://www.w3.org/2003/01/geo/wgs84_pos#lat,50.83917
+https://example.org/woolf/place/rodmell,http://www.w3.org/2003/01/geo/wgs84_pos#long,0.01588
