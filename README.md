@@ -42,8 +42,23 @@ This metadata analysis identifies the descriptive standards used by institutions
 | Places Related to Virginia Woolf  | Maps                                                     | GeoNames                             | Dublin Core                                    | GeoNames Ontology uses Dublin Core metadata elements to describe the ontology and its metadata. The ontology defines its own RDF vocabulary for geospatial features.                                                                                                                                                 |
 | The Hours                         | Movie                                                    | IMDb                                 | Schema.org                                     | Metadata is embedded as JSON-LD in webpages, following Schema.org’s Movie type (name, director, datePublished, genre) for search engine interoperability.                                                                                                                                                            |
 
+### Authority Control
+The project adopts authority control practices to ensure consistent identification and referencing of entities.
+Each person, place, and work was linked to external authority sources (DBpedia, Wikidata, VIAF, IMDb).
+Internal TEI markup and RDF labels were also standardized to maintain controlled vocabularies within the dataset.
+| Entity Type  | Local URI               | Authority Source |
+| ------------ | ----------------------- | ---------------- |
+| Person       | `person/virginia-woolf` | DBpedia, VIAF    |
+| Work         | `work/mrs-dalloway`     | DBpedia          |
+| Place        | `place/stives`          | Wikidata         |
+| Organization | `org/hogarth-press`     | Wikidata         |
+| Film         | `film/the-hours`        | IMDb             |
+
 
 ## Theoretical Model
+the idea about ontology:
+<img width="1103" height="701" alt="vw drawio" src="https://github.com/user-attachments/assets/800f1ed9-75d4-4275-94df-9b1df3c9b122" />
+
 The project models the literary universe around the English writer Virginia Woolf as a network of interconnected entities, including people, works, places, publishers, adaptations, and visual resources.
 Each entity is described according to existing metadata standards adopted by the cultural heritage institutions holding the items.
 Each work (e.g.*To the Lighthouse*, *Mrs Dalloway*) has attributes such as title, creator, publication year, publisher, and related locations of creation and content.
