@@ -65,6 +65,8 @@ Its conceptual structure is further represented in the Graffoo diagram and in RD
 
 ## Conceptual Model
 
+<img width="2615" height="2227" alt="A room of Virginia Woolf&#39;s own" src="https://github.com/user-attachments/assets/38246184-f6a4-4947-a3ad-423bf4dce357" />
+
 ## Front-End Data Guide
 
 ###  Data Location
