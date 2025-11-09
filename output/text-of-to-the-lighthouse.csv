@@ -1,8 +1,0 @@
-subject,predicate,object
-https://example.org/woolf/work/text-of-to-the-lighthouse,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/Book
-https://example.org/woolf/work/text-of-to-the-lighthouse,http://purl.org/dc/terms/title,"Text of ""To the Lighthouse"""
-https://example.org/woolf/work/text-of-to-the-lighthouse,https://schema.org/creator,https://example.org/woolf/person/virginia-woolf
-https://example.org/woolf/work/text-of-to-the-lighthouse,http://purl.org/dc/terms/publisher,https://example.org/woolf/org/hogarth-press
-https://example.org/woolf/work/text-of-to-the-lighthouse,http://purl.org/dc/terms/date,1927
-https://example.org/woolf/work/text-of-to-the-lighthouse,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://dbpedia.org/page/To_the_Lighthouse
-https://example.org/woolf/work/text-of-to-the-lighthouse,http://www.w3.org/2000/01/rdf-schema#seeAlso,http://www.woolfonline.com

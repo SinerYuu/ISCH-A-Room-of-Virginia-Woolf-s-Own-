@@ -1,9 +1,0 @@
-subject,predicate,object
-https://example.org/woolf/person/virginia-woolf,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/Person
-https://example.org/woolf/person/virginia-woolf,https://schema.org/name,Virginia Woolf
-https://example.org/woolf/person/virginia-woolf,http://www.w3.org/2002/07/owl#sameAs,https://dbpedia.org/page/Virginia_Woolf
-https://example.org/woolf/person/virginia-woolf,https://schema.org/birthPlace,https://example.org/woolf/place/london
-https://example.org/woolf/person/virginia-woolf,https://schema.org/deathPlace,https://example.org/woolf/place/rodmell
-https://example.org/woolf/person/virginia-woolf,https://schema.org/birthDate,1882-01-25
-https://example.org/woolf/person/virginia-woolf,https://schema.org/deathDate,1941-03-28
-https://example.org/woolf/person/virginia-woolf,http://xmlns.com/foaf/0.1/depiction,https://example.org/woolf/resource/portrait-woolf-1902

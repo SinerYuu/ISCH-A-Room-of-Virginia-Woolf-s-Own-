@@ -1,8 +1,0 @@
-subject,predicate,object
-https://example.org/woolf/work/1928-diary,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/CreativeWork
-https://example.org/woolf/work/1928-diary,http://purl.org/dc/terms/title,1928 Diary
-https://example.org/woolf/work/1928-diary,http://purl.org/dc/terms/isPartOf,https://example.org/woolf/work/the-diary-of-virginia-woolf
-https://example.org/woolf/work/1928-diary,http://purl.org/dc/terms/date,1928
-https://example.org/woolf/work/1928-diary,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://digitalcollections.nypl.org/items/6c46d770-bc67-013b-8012-0242ac110002
-https://example.org/woolf/work/1928-diary,http://purl.org/dc/terms/publisher,The New York Public Library
-https://example.org/woolf/work/1928-diary,https://example.org/woolf-ontology#hasManuscript,https://example.org/woolf/resource/1928-diary-facsimile

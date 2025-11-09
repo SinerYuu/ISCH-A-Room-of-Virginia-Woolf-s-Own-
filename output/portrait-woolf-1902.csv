@@ -1,7 +1,0 @@
-subject,predicate,object
-https://example.org/woolf/resource/portrait-woolf-1902,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.europeana.eu/schemas/edm/WebResource
-https://example.org/woolf/resource/portrait-woolf-1902,https://schema.org/contentUrl,Virginia Woolf in 1902.jpg
-https://example.org/woolf/resource/portrait-woolf-1902,http://purl.org/dc/terms/title,Picture of Virginia Woolf in 1902
-https://example.org/woolf/resource/portrait-woolf-1902,http://purl.org/dc/terms/description,This picture of Virginia Woolf was taken by George Charles Beresford in 1902. It is a significant representation of Woolf's early life and career.
-https://example.org/woolf/resource/portrait-woolf-1902,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg
-https://example.org/woolf/resource/portrait-woolf-1902,http://xmlns.com/foaf/0.1/depicts,https://example.org/woolf/person/virginia-woolf

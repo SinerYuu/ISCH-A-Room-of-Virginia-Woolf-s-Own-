@@ -1,5 +1,0 @@
-subject,predicate,object
-https://example.org/woolf/resource/1928-diary-facsimile,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.europeana.eu/schemas/edm/WebResource
-https://example.org/woolf/resource/1928-diary-facsimile,http://purl.org/dc/terms/title,Manuscript of Virginia Woolf's diary in 1928
-https://example.org/woolf/resource/1928-diary-facsimile,https://schema.org/contentUrl,Diaries-1928.jpg
-https://example.org/woolf/resource/1928-diary-facsimile,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://digitalcollections.nypl.org/items/6c46d770-bc67-013b-8012-0242ac110002

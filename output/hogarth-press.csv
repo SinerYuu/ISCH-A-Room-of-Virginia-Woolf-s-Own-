@@ -1,8 +1,0 @@
-subject,predicate,object
-https://example.org/woolf/org/hogarth-press,http://www.w3.org/2002/07/owl#sameAs,https://en.wikipedia.org/wiki/Hogarth_Press
-https://example.org/woolf/org/hogarth-press,https://schema.org/url,https://en.wikipedia.org/wiki/Hogarth_Press
-https://example.org/woolf/org/hogarth-press,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/Organization
-https://example.org/woolf/org/hogarth-press,https://schema.org/name,Hogarth Press
-https://example.org/woolf/org/hogarth-press,https://schema.org/founder,https://example.org/woolf/person/virginia-woolf
-https://example.org/woolf/org/hogarth-press,https://schema.org/location,https://example.org/woolf/place/london
-https://example.org/woolf/org/hogarth-press,https://schema.org/foundingDate,1917

@@ -1,7 +1,0 @@
-subject,predicate,object
-https://example.org/woolf/place/stives,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/Place
-https://example.org/woolf/place/stives,https://schema.org/name,St Ives
-https://example.org/woolf/place/stives,http://www.w3.org/2002/07/owl#sameAs,https://www.wikidata.org/wiki/Q724182
-https://example.org/woolf/place/stives,http://www.w3.org/2002/07/owl#sameAs,https://www.geonames.org/2638778/
-https://example.org/woolf/place/stives,http://www.w3.org/2003/01/geo/wgs84_pos#lat,50.20861
-https://example.org/woolf/place/stives,http://www.w3.org/2003/01/geo/wgs84_pos#long,-5.4875

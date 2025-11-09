@@ -1,8 +1,0 @@
-subject,predicate,object
-https://example.org/woolf/work/text-of-a-room-of-one-s-own,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/Book
-https://example.org/woolf/work/text-of-a-room-of-one-s-own,http://purl.org/dc/terms/title,"Text of ""A Room of One's Own"""
-https://example.org/woolf/work/text-of-a-room-of-one-s-own,https://schema.org/creator,https://example.org/woolf/person/virginia-woolf
-https://example.org/woolf/work/text-of-a-room-of-one-s-own,http://purl.org/dc/terms/publisher,https://example.org/woolf/org/hogarth-press
-https://example.org/woolf/work/text-of-a-room-of-one-s-own,http://purl.org/dc/terms/date,1935
-https://example.org/woolf/work/text-of-a-room-of-one-s-own,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://dbpedia.org/page/A_Room_of_One's_Own
-https://example.org/woolf/work/text-of-a-room-of-one-s-own,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://archive.org/details/woolf_aroom

@@ -1,6 +1,0 @@
-subject,predicate,object
-https://example.org/woolf/resource/fig-ro-page2,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.europeana.eu/schemas/edm/WebResource
-https://example.org/woolf/resource/fig-ro-page2,http://purl.org/dc/terms/title,"Manuscript Page 2 of ""A Room of One's Own"""
-https://example.org/woolf/resource/fig-ro-page2,http://purl.org/dc/terms/description,"This page continues the narrative development from the previous manuscript leaf. The writer was adding revisions and new ideas between the lines, in the margins, and on the blank pages. The original image is available at"
-https://example.org/woolf/resource/fig-ro-page2,https://schema.org/contentUrl,Manuscript Page 2 of A Room of One's Own.jpg
-https://example.org/woolf/resource/fig-ro-page2,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://cudl.lib.cam.ac.uk/view/MS-FITZWILLIAM-00001-01942/6
