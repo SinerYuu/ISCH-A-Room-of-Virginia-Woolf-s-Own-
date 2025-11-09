@@ -13,61 +13,49 @@
     dcterms:title "The Hours: Virginia Woolf’s Modern Echo" ;
     schema:basedOn <https://example.org/woolf/work/mrs-dalloway> .
 
+<https://example.org/woolf/work/a-room-of-one-s-own> a schema:Book ;
+    dcterms:date "1935" ;
+    dcterms:publisher <https://example.org/woolf/org/hogarth-press> ;
+    dcterms:title "A Room of One's Own" ;
+    rdfs:seeAlso <https://archive.org/details/woolf_aroom>,
+        <https://dbpedia.org/page/A_Room_of_One's_Own> ;
+    woolfo:hasManuscript <https://example.org/woolf/resource/fig-ro-page1>,
+        <https://example.org/woolf/resource/fig-ro-page2> ;
+    schema:creator <https://example.org/woolf/person/virginia-woolf> ;
+    schema:locationCreated <https://example.org/woolf/place/london> .
+
+<https://example.org/woolf/work/from-the-diary-of-virginia-woolf> a schema:MusicComposition ;
+    dcterms:title "From the Diary of Virginia Woolf" ;
+    prov:wasDerivedFrom <https://example.org/woolf/work/the-diary-of-virginia-woolf> .
+
+<https://example.org/woolf/work/orlando-a-biography> a schema:Book ;
+    dcterms:date "1928" ;
+    dcterms:publisher <https://example.org/woolf/org/hogarth-press> ;
+    dcterms:title "Orlando: A Biography" ;
+    rdfs:seeAlso <https://archive.org/details/orlandobiography0000virg>,
+        <https://dbpedia.org/page/Orlando:_A_Biography> ;
+    schema:contentLocation <https://example.org/woolf/place/london> ;
+    schema:creator <https://example.org/woolf/person/virginia-woolf> ;
+    schema:locationCreated <https://example.org/woolf/place/london> .
+
+<https://example.org/woolf/work/to-the-lighthouse> a schema:Book ;
+    dcterms:date "1927" ;
+    dcterms:publisher <https://example.org/woolf/org/hogarth-press> ;
+    dcterms:title "To the Lighthouse" ;
+    rdfs:seeAlso <http://www.woolfonline.com>,
+        <https://dbpedia.org/page/To_the_Lighthouse> ;
+    woolfo:hasManuscript <https://example.org/woolf/resource/fig-lh-page1>,
+        <https://example.org/woolf/resource/fig-lh-page2> ;
+    schema:contentLocation <https://example.org/woolf/place/stives> ;
+    schema:creator <https://example.org/woolf/person/virginia-woolf> ;
+    schema:locationCreated <https://example.org/woolf/place/rodmell> .
+
 <https://example.org/woolf/place/stives> a schema:Place ;
     owl:sameAs <https://www.geonames.org/2638778/>,
         <https://www.wikidata.org/wiki/Q724182> ;
     geo1:lat 50.20861 ;
     geo1:long -5.4875 ;
     schema:name "St Ives" .
-
-<https://example.org/woolf/work/a-room-of-one-s-own> woolfo:hasManuscript <https://example.org/woolf/resource/fig-ro-page1>,
-        <https://example.org/woolf/resource/fig-ro-page2> .
-
-<https://example.org/woolf/work/from-the-diary-of-virginia-woolf> a schema:MusicComposition ;
-    dcterms:title "From the Diary of Virginia Woolf" ;
-    prov:wasDerivedFrom <https://example.org/woolf/work/the-diary-of-virginia-woolf> .
-
-<https://example.org/woolf/work/text-of-a-room-of-one-s-own> a schema:Book ;
-    dcterms:date "1935" ;
-    dcterms:publisher <https://example.org/woolf/org/hogarth-press> ;
-    dcterms:title "Text of \"A Room of One's Own\"" ;
-    rdfs:seeAlso <https://archive.org/details/woolf_aroom>,
-        <https://dbpedia.org/page/A_Room_of_One's_Own> ;
-    schema:creator <https://example.org/woolf/person/virginia-woolf> .
-
-<https://example.org/woolf/work/text-of-mrs-dalloway> a schema:Book ;
-    dcterms:date "1925" ;
-    dcterms:publisher <https://example.org/woolf/org/hogarth-press> ;
-    dcterms:title "Text of \"Mrs. Dalloway\"" ;
-    rdfs:seeAlso <https://archive.org/details/in.ernet.dli.2015.475974>,
-        <https://dbpedia.org/page/Mrs_Dalloway> ;
-    schema:creator <https://example.org/woolf/person/virginia-woolf> .
-
-<https://example.org/woolf/work/text-of-orlando-a-biography> a schema:Book ;
-    dcterms:date "1928" ;
-    dcterms:publisher <https://example.org/woolf/org/hogarth-press> ;
-    dcterms:title "Text of \"Orlando: A Biography\"" ;
-    rdfs:seeAlso <https://archive.org/details/orlandobiography0000virg>,
-        <https://dbpedia.org/page/Orlando:_A_Biography> ;
-    schema:creator <https://example.org/woolf/person/virginia-woolf> .
-
-<https://example.org/woolf/work/text-of-to-the-lighthouse> a schema:Book ;
-    dcterms:date "1927" ;
-    dcterms:publisher <https://example.org/woolf/org/hogarth-press> ;
-    dcterms:title "Text of \"To the Lighthouse\"" ;
-    rdfs:seeAlso <http://www.woolfonline.com>,
-        <https://dbpedia.org/page/To_the_Lighthouse> ;
-    schema:creator <https://example.org/woolf/person/virginia-woolf> .
-
-<https://example.org/woolf/work/to-the-lighthouse> woolfo:hasManuscript <https://example.org/woolf/resource/fig-lh-page1>,
-        <https://example.org/woolf/resource/fig-lh-page2> .
-
-<https://example.org/woolf/place/rodmell> a schema:Place ;
-    owl:sameAs <https://www.geonames.org/2639231/>,
-        <https://www.wikidata.org/wiki/Q531102> ;
-    geo1:lat 50.83917 ;
-    geo1:long 0.01588 ;
-    schema:name "Rodmell" .
 
 <https://example.org/woolf/resource/1928-diary-facsimile> a edm:WebResource ;
     dcterms:title "Manuscript of Virginia Woolf's diary in 1928" ;
@@ -113,12 +101,22 @@
     rdfs:seeAlso <https://digitalcollections.nypl.org/items/6c46d770-bc67-013b-8012-0242ac110002> ;
     woolfo:hasManuscript <https://example.org/woolf/resource/1928-diary-facsimile> .
 
-<https://example.org/woolf/place/london> a schema:Place ;
-    owl:sameAs <https://www.geonames.org/2643743/>,
-        <https://www.wikidata.org/wiki/Q84> ;
-    geo1:lat 51.50853 ;
-    geo1:long -0.12574 ;
-    schema:name "London" .
+<https://example.org/woolf/work/mrs-dalloway> a schema:Book ;
+    dcterms:date "1925" ;
+    dcterms:publisher <https://example.org/woolf/org/hogarth-press> ;
+    dcterms:title "Mrs. Dalloway" ;
+    rdfs:seeAlso <https://archive.org/details/in.ernet.dli.2015.475974>,
+        <https://dbpedia.org/page/Mrs_Dalloway> ;
+    schema:contentLocation <https://example.org/woolf/place/london> ;
+    schema:creator <https://example.org/woolf/person/virginia-woolf> ;
+    schema:locationCreated <https://example.org/woolf/place/london> .
+
+<https://example.org/woolf/place/rodmell> a schema:Place ;
+    owl:sameAs <https://www.geonames.org/2639231/>,
+        <https://www.wikidata.org/wiki/Q531102> ;
+    geo1:lat 50.83917 ;
+    geo1:long 0.01588 ;
+    schema:name "Rodmell" .
 
 <https://example.org/woolf/work/the-diary-of-virginia-woolf> a schema:Collection ;
     dcterms:hasPart <https://example.org/woolf/work/1928-diary> ;
@@ -141,4 +139,11 @@
     schema:deathDate "1941-03-28" ;
     schema:deathPlace <https://example.org/woolf/place/rodmell> ;
     schema:name "Virginia Woolf" .
+
+<https://example.org/woolf/place/london> a schema:Place ;
+    owl:sameAs <https://www.geonames.org/2643743/>,
+        <https://www.wikidata.org/wiki/Q84> ;
+    geo1:lat 51.50853 ;
+    geo1:long -0.12574 ;
+    schema:name "London" .
 

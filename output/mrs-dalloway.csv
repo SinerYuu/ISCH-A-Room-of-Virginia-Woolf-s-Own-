@@ -1,0 +1,10 @@
+subject,predicate,object
+https://example.org/woolf/work/mrs-dalloway,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,https://schema.org/Book
+https://example.org/woolf/work/mrs-dalloway,http://purl.org/dc/terms/title,Mrs. Dalloway
+https://example.org/woolf/work/mrs-dalloway,https://schema.org/creator,https://example.org/woolf/person/virginia-woolf
+https://example.org/woolf/work/mrs-dalloway,http://purl.org/dc/terms/publisher,https://example.org/woolf/org/hogarth-press
+https://example.org/woolf/work/mrs-dalloway,http://purl.org/dc/terms/date,1925
+https://example.org/woolf/work/mrs-dalloway,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://dbpedia.org/page/Mrs_Dalloway
+https://example.org/woolf/work/mrs-dalloway,http://www.w3.org/2000/01/rdf-schema#seeAlso,https://archive.org/details/in.ernet.dli.2015.475974
+https://example.org/woolf/work/mrs-dalloway,https://schema.org/contentLocation,https://example.org/woolf/place/london
+https://example.org/woolf/work/mrs-dalloway,https://schema.org/locationCreated,https://example.org/woolf/place/london
