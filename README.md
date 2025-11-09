@@ -66,7 +66,228 @@ Its conceptual structure is further represented in the Graffoo diagram and in RD
 ## Conceptual Model
 This model illustrates the main semantic relationships among the selected items. It identifies the roles of persons, creative works, and places, highlighting the interconnections of authorship, publication, and inspiration.
 <img width="2615" height="2227" alt="A room of Virginia Woolf&#39;s own" src="https://github.com/user-attachments/assets/38246184-f6a4-4947-a3ad-423bf4dce357" />
+### Class
+```
+Class: Person
+    Explanation: Represents human individuals, such as authors, artists, or related historical figures.
 
+Class: Place
+    Explanation: Refers to geographical locations associated with people or works (e.g., birthplaces, residences, settings).
+
+Class: Organization
+    Explanation: Denotes publishing houses or institutions connected to the production of literary works.
+
+Class: Book
+    Explanation: Stands for individual literary works authored by Virginia Woolf.
+
+Class: CreativeWork
+    Explanation: Used for other types of creative outputs beyond books, such as diaries or manuscripts.
+
+Class: Collection
+    Explanation: Represents a group or compilation of creative works, such as *The Diary of Virginia Woolf* volumes.
+
+Class: WebResource
+    Explanation: Refers to digitized or online resources (e.g., manuscript images, portraits) connected to the works.
+
+Class: Movie
+    Explanation: Denotes filmic interpretations or adaptations inspired by Woolf’s writings.
+
+Class: MusicComposition
+    Explanation: Captures musical compositions based on Woolf’s works or life.
+```
+### Objext Properties
+```
+ObjectProperty: birthPlace
+    Domain: Person
+    Range: Place
+    Explanation: Connects a person to the place where they were born.
+
+ObjectProperty: deathPlace
+    Domain: Person
+    Range: Place
+    Explanation: Links a person to their place of death.
+
+ObjectProperty: creator
+    Domain: Book
+    Range: Person
+    Explanation: Expresses authorship between a work and its creator.
+
+ObjectProperty: publisher
+    Domain: Book
+    Range: Organization
+    Explanation: Indicates the organization responsible for publishing a work.
+
+ObjectProperty: hasPart
+    Domain: Collection
+    Range: CreativeWork
+    Explanation: Specifies that a collection includes particular creative works.
+
+ObjectProperty: hasManuscript
+    Domain: Book
+    Range: WebResource
+    Explanation: Associates a published work with its surviving manuscript images.
+
+ObjectProperty: depiction
+    Domain: Person
+    Range: WebResource
+    Explanation: Connects a person to their visual representation (portrait).
+
+ObjectProperty: depicts
+    Domain: WebResource
+    Range: Person
+    Explanation: Reverse relation showing that a resource portrays a person.
+
+ObjectProperty: contentLocation
+    Domain: Book
+    Range: Place
+    Explanation: Links a literary work to the location where its story is set.
+
+ObjectProperty: basedOn
+    Domain: Movie
+    Range: Book
+    Explanation: Expresses that a film is inspired by a literary work.
+
+ObjectProperty: wasDerivedFrom
+    Domain: MusicComposition
+    Range: Collection
+    Explanation: Indicates a musical piece is derived from or inspired by a literary collection.
+```
+### DataProperties
+```
+DataProperty: name
+    Domain: Person, Place, Organization
+    Range: Literal
+    Explanation: Records the proper name of individuals, locations, or institutions.
+
+DataProperty: title
+    Domain: Book, CreativeWork, Collection, Movie, MusicComposition, WebResource
+    Range: Literal
+    Explanation: Specifies the title of the creative or digital resource.
+
+DataProperty: date
+    Domain: Book, CreativeWork
+    Range: Literal
+    Explanation: Indicates the year of creation or publication.
+
+DataProperty: birthDate
+    Domain: Person
+    Range: Literal
+    Explanation: Records the date of birth of a person.
+
+DataProperty: deathDate
+    Domain: Person
+    Range: Literal
+    Explanation: Records the date of death of a person.
+
+DataProperty: foundingDate
+    Domain: Organization
+    Range: Literal
+    Explanation: Specifies when an organization was founded.
+
+DataProperty: lat
+    Domain: Place
+    Range: Literal
+    Explanation: Expresses the latitude coordinate of a location.
+
+DataProperty: long
+    Domain: Place
+    Range: Literal
+    Explanation: Expresses the longitude coordinate of a location.
+
+DataProperty: contentUrl
+    Domain: WebResource
+    Range: Literal
+    Explanation: Stores the link to the digital representation of a manuscript or image.
+```
+### Individuals (Selected Examples)
+```
+Individual: virginia-woolf
+    Types: Person
+    Facts:
+        birthPlace london
+        deathPlace rodmell
+        depiction portrait-woolf-1902
+        name "Virginia Woolf"
+        birthDate "1882-01-25"
+        deathDate "1941-03-28"
+    Explanation: Central individual connecting the creative network of works, locations, and visual representations.
+
+Individual: hogarth-press
+    Types: Organization
+    Facts:
+        name "Hogarth Press"
+    Explanation: Publishing house co-founded by Virginia Woolf, linking most of her works.
+
+Individual: london
+    Types: Place
+    Facts:
+        name "London"
+        lat "51.50853"
+        long "-0.12574"
+    Explanation: Major geographic anchor representing Woolf’s birthplace and literary space.
+
+Individual: rodmell
+    Types: Place
+    Facts:
+        name "Rodmell"
+        lat "50.83917"
+        long "0.01588"
+    Explanation: The location of Woolf’s final residence and death.
+
+Individual: to-the-lighthouse
+    Types: Book
+    Facts:
+        creator virginia-woolf
+        publisher hogarth-press
+        hasManuscript fig-lh-page1
+        hasManuscript fig-lh-page2
+        contentLocation st-ives
+        title "Text of To the Lighthouse"
+        date "1927"
+    Explanation: A representative novel linking author, publisher, and manuscript sources.
+
+Individual: a-room-of-one-s-own
+    Types: Book
+    Facts:
+        creator virginia-woolf
+        publisher hogarth-press
+        title "Text of A Room of One’s Own"
+        date "1929"
+    Explanation: Canonical feminist essay emphasizing economic and intellectual independence.
+
+Individual: the-diary-of-virginia-woolf
+    Types: Collection
+    Facts:
+        title "The Diary of Virginia Woolf"
+    Explanation: A compilation that serves as a narrative and inspirational source for later adaptations.
+
+Individual: 1928-diary
+    Types: CreativeWork
+    Facts:
+        title "1928 Diary"
+    Explanation: One of Woolf’s diary entries, linked with WebResource facsimiles.
+
+Individual: the-hours-virginia-woolf-s-modern-echo
+    Types: Movie
+    Facts:
+        basedOn mrs-dalloway
+        title "The Hours: Virginia Woolf’s Modern Echo"
+    Explanation: Cinematic reinterpretation connecting Woolf’s life and her novel *Mrs Dalloway*.
+
+Individual: from-the-diary-of-virginia-woolf
+    Types: MusicComposition
+    Facts:
+        wasDerivedFrom the-diary-of-virginia-woolf
+        title "From the Diary of Virginia Woolf"
+    Explanation: A musical composition inspired by Woolf’s diary texts and emotional landscape.
+
+Individual: fig-lh-page1
+    Types: WebResource
+    Facts:
+        title "Manuscript Page 1 of To the Lighthouse"
+        contentUrl "fig-lh-page1.jpg"
+    Explanation: A digitized facsimile of Woolf’s handwritten manuscript page.
+```
 ## Files Sturcture
 ```
 ISCH-A-Room-of-Virginia-Woolf-s-Own/
