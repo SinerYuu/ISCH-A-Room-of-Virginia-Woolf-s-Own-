@@ -1,0 +1,6 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://example.org/woolf/place/stives",
+  "@type": "Place",
+  "name": "St Ives"
+}

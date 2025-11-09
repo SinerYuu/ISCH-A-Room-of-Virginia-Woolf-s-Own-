@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://example.org/woolf/resource/1928-diary-facsimile",
+  "@type": "MediaObject",
+  "name": "Manuscript of Virginia Woolf's diary in 1928",
+  "contentUrl": "Diaries-1928.jpg",
+  "sameAs": [
+    "https://digitalcollections.nypl.org/items/6c46d770-bc67-013b-8012-0242ac110002"
+  ]
+}

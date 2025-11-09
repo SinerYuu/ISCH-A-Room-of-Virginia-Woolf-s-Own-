@@ -1,0 +1,9 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://example.org/woolf/work/a-room-of-one-s-own",
+  "@type": "Book",
+  "name": "A Room of One's Own",
+  "creator": {
+    "@id": "https://example.org/woolf/person/virginia-woolf"
+  }
+}
