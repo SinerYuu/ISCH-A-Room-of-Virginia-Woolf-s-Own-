@@ -50,7 +50,7 @@ Internal TEI markup and RDF labels were also standardized to maintain controlled
 | ------------ | ----------------------- | ---------------- |
 | Person       | `person/virginia-woolf` | DBpedia, VIAF    |
 | Work         | `work/mrs-dalloway`     | DBpedia          |
-| Place        | `place/stives`          | Wikidata         |
+| Place        | `place/stives`          | GeoName, Wikidata|
 | Organization | `org/hogarth-press`     | Wikidata         |
 | Film         | `film/the-hours`        | IMDb             |
 
