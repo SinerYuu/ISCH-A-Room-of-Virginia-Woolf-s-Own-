@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>The Diary of Virginia Woolf (1928)</title>
+        <author>Virginia Woolf</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName>Peize Yu</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>The New York Public Library Digital Collections</publisher>
+        <availability>
+          <p>Publicly available from The New York Public Library's Digital Collections</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>From the Diaries of Virginia Woolf</title>
+          <author>Virginia Woolf</author>
+          <date when="1928">1928</date>
+        </bibl>
+        <ref target="https://digitalcollections.nypl.org/items/510d47dd-e5d3-a3d9-e040-e00a18064a99"/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI encoding of excerpt from Virginia Woolf’s 1928 diary with both text and manuscript image.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="diary" xml:id="vw-diary-1928">
+        <head>From the Diaries of Virginia Woolf</head>
+
+        <p>
+          at three in the night. He came in - a fresh tall old man (such was my impression)
+          with a very determined look about his face. I said how nice it was to Sheffield;
+          has a thick moustache; a red beard that came down, very trim. But when he saw
+          perfectly trim very large. They then - he was becomes growing in mercy when
+          the letter - how I wish discovered I discovered in the "Times" brushed, neat,
+          urbane. They came through dinner he turned to me &amp; the talk remembering
+          platform. Charming story teller; he told me Fitzgerald had in mind an article
+          on Goldsmith I opened - Burnt me away when Lyttelton appeared. I got these
+          from his yarn manner. J. M.B. does himself so whether you encouraged me more
+          day so telling has me he is unrivaled. "In a minute now he came in the is
+          constabulary." Like a general he said, intent directly. What a strange power.
+          A which is hard flaxen. Just always closes. At Charming now, he said "very
+          kind expression, - What had Coleridge really published in - equal to W - at
+          that time? Between Waverley days - To W - think - now she you wrote. I do an
+          I was one of his colleagues. Yellow in the way looking. But not quite purple
+          too slightly he asked me what I wrote - to black green. He took me in his.
+          Therefore when a literary. I went to buy it &amp; wrote him that I much you
+          would deem but not great charms -
+        </p>
+
+        <figure>
+          <head>Manuscript of Virginia Woolf's diary in 1928</head>
+          <graphic url="Diaries-1928.jpg"/>
+          <figDesc>Facsimile of the 1928 diary manuscript page by Virginia Woolf.</figDesc>
+        </figure>
+      </div>
+    </body>
+  </text>
+</TEI>
