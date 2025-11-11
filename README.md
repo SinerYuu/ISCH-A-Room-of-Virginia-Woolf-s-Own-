@@ -59,8 +59,7 @@ Internal TEI markup and RDF labels were also standardized to maintain controlled
 the idea about ontology:
 <img width="1103" height="701" alt="vw drawio" src="https://github.com/user-attachments/assets/800f1ed9-75d4-4275-94df-9b1df3c9b122" />
 
-The project models the literary universe around the English writer Virginia Woolf as a network of interconnected entities, including people, works, places, publishers, adaptations, and visual resources.
-Each entity is described according to existing metadata standards adopted by the cultural heritage institutions holding the items.
+The project models the literary universe around the English writer Virginia Woolf as a network of interconnected entities, including people, works, places, publishers, adaptations, and visual resources. 
 Each work (e.g.*To the Lighthouse*, *Mrs Dalloway*) has attributes such as title, creator, publication year, publisher, and related locations of creation and content.
 The project introduces one custom property __woolf:hasManuscript__ to link works with their digital manuscripts (__edm:WebResource__).
 The manuscripts are connected only to the works, and each page includes its own description and external digital link.
@@ -68,7 +67,7 @@ In the case of the diaries, this project treats the entire diary as a collection
 Places are linked to external authorities (Wikidata, GeoNames) via __owl:sameAs__, and those works linked to the places they were created or their content happened in through schema:contentLocation or schema:locationCreated.
 Visual materials (portraits, facsimiles) use foaf:depicts to connect with the person entity.
 Adaptations such as *The Hours* (film) or *From the Diaries of Virginia Woolf* (music composition) are connected to the original works through schema:basedOn or prov:wasDerivedFrom. *From the Diary of Virginia Woolf* is linked to the entire diary collection.
-The model therefore integrates literary, biographical, and geographical information through Linked Open Data, reusing vocabularies such as schema.org, Dublin Core Terms, FOAF, PROV, EDM, and GEO.
+The model therefore integrates literary, biographical, and geographical information through Linked Open Data, reusing  existing vocabularies such as schema.org, Dublin Core Terms, FOAF, PROV, EDM, and GEO, to nsure interoperability and future scalability.
 Its conceptual structure is further represented in the Graffoo diagram and in RDF/OWL serializations (woolf-full.rdf, woolf-full.ttl).
 
 ## Conceptual Model
